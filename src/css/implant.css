@@ -1,0 +1,341 @@
+/* アクセス
+----------------------------------------------------
+
+	1.	見出しクラスわけ
+
+
+
+----------------------------------------------------
+*/
+
+
+
+/*	1. 見出しクラスわけ
+-----------------------------------------------	*/
+#main-contents h1{
+	background-image:url(../images/implant/h1.gif);
+	}
+
+#main-contents h2.h2-1{
+	background-image:url(../images/implant/h2_1.gif);
+	}
+
+#main-contents h2.h2-2{
+	background-image:url(../images/implant/h2_2.gif);
+	}
+#main-contents h2.h2-3{
+	background-image:url(../images/implant/h2_3.gif);
+	}
+
+#main-contents h2.h2-4{
+	background-image:url(../images/implant/h2_4.gif);
+	}
+#main-contents h2.h2-5{
+	background-image:url(../images/implant/h2_5.gif);
+	}
+
+#main-contents h2.h2-6{
+	background-image:url(../images/implant/h2_6.gif);
+	}
+#main-contents h2.h2-7{
+	background-image:url(../images/implant/h2_7.gif);
+	}
+
+#main-contents h2.h2-8{
+	background-image:url(../images/implant/h2_8.gif);
+	}
+#main-contents h2.h2-9{
+	background-image:url(../images/implant/h2_9.gif);
+	}
+
+#main-contents h2.h2-10{
+	background-image:url(../images/implant/h2_10.gif);
+	}
+#main-contents h2.h2-11{
+	background-image:url(../images/implant/h2_11.gif);
+	}
+
+#main-contents h2.h2-12{
+	background-image:url(../images/implant/h2_12.gif);
+	}
+
+#main-contents h2.h2-13{
+	background-image:url(../images/implant/h2_13.gif);
+	}
+/*	2.インプラントの表
+------------------------------*/
+
+
+#about{
+	width:537px;
+	background-color:#00aa1e;
+	margin-bottom: 5px;
+	}
+
+#about table{
+	width:100%;
+	}
+
+#about td {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	padding: 10px 3px;
+	width:165px;
+}
+
+#about .white,#about #before,#about #after {
+	text-align: center;
+	font-size: 12px;
+	padding:3px;
+}
+
+#about .pink {
+	background-color: #f4fff6;
+	color: #333333;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#about .white {
+	background-color:#FFFFFF;
+	}
+
+
+#about #before {
+	background-color: #b1eaf0;
+	color: #333333;
+}
+#about #after {
+	color: #333333;
+	background-color: #99efc5;
+}
+#about .arrow {
+	text-align: center;
+}
+
+#about .arrow img {
+	margin: 0px;
+	padding: 0px;
+}
+#nobel-logo {
+	margin-left: 15px;
+}
+
+#about ul{
+	margin:0px 8px;
+	padding:0px;
+	list-style:none;
+	}
+
+#about ul li{
+	background-image:url(../images/service_mark.gif);
+	background-repeat:no-repeat;
+	padding:0px 0px 3px 10px;
+	margin:0px;
+	}
+
+
+/*	3.治療の流れ
+------------------------------*/
+.flow-img{
+	clear:both;
+	width:537px;
+	background-image:url(../dental_service/images/dot_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding:10px 0px;
+	}
+
+.flow-img p{
+	margin-bottom:0px;
+	}
+
+.flow-img2{
+	clear:both;
+	width:490px;
+	background-image:url(../dental_service/images/dot_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding:7px 0px;
+	border:dotted;
+	margin:0px 0px 10px 0px;
+	border-color:#59d99a;
+	border-width:2px;
+	}
+
+
+.flow-img2:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.flow-img2 {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .flow-img2 {height: 1%;}
+.flow-img2 {display: block;}
+/* End hide from IE-mac */
+
+
+#main-contents div.flow-img2 ul{
+	margin:0px 8px;
+	padding:0px;
+	list-style:none;
+	}
+
+
+
+
+#main-contents div.flow-img2 ul li{
+	background-image:url(../images/service_mark.gif);
+	background-repeat:no-repeat;
+	padding:0px 0px 3px 10px;
+	margin:0px;
+	}
+
+
+
+.flow-img2 img{
+	margin:0px 5px 0px 0px;
+}
+
+p.flow-name,p.flow-name2{
+	font-size:14px;
+	padding:3px 0px 0px 5px;
+	margin-bottom:10px;
+	font-weight:bold;
+	color:#003366;
+	}
+
+p.flow-name{
+	background-color:#f4fff6;
+	width:330px;
+	}
+
+p.flow-name2{
+	background-color:#cdfee1;
+	width:295px;
+}
+
+/*---診療の流れ（段組左）---*/
+#flow-wrap{
+padding:0px;
+margin:20px 0px;
+background-image:url(../images/implant/flow_arrow.gif);
+background-position:left bottom;
+background-repeat:no-repeat;
+width:537px;
+}
+
+#flow-right{
+padding:0px;
+margin:0px;
+width:495px;
+float:right;
+}
+
+
+
+/*	4.インプラントのQ&A
+------------------------------*/
+#main-contents ul.qa-ul{
+clear:both;
+margin:0px;
+padding:20px 0px 0px 0px;
+list-style-type:none;
+}
+
+
+#main-contents ul.qa-ul li{
+background-image:none;
+padding:0px 0px 0px 0px;
+margin:0px;
+	}
+
+
+/*	--Q---	*/
+#main-contents p.q{
+	padding:4px 0px 10px 36px;
+	margin:0px 0px 5px 0px;
+	clear:both;
+	background-image:url(../images/implant/q_bg.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-weight:bold;
+	color:#FF6600;
+}
+
+
+
+/*	--A---	*/
+#main-contents p.a{
+	padding:4px 0px 10px 36px;
+	margin:0px 0px 10px 0px;
+	clear:both;
+	background-image:url(../images/implant/a_bg.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	font-size:13px;
+	color:#01931a;
+}
+
+#main-contents p.a-2{
+	padding:4px 0px 10px 36px;
+	margin:0px 0px 10px 0px;
+	clear:both;
+	background-image:none;
+	font-size:13px;
+	color:#01931a;
+}
+
+
+/*	5. インプラント症例
+-----------------------------------------------	*/
+/*------２枚バージョン（文字付　矢印付）------*/
+.version2-2{
+width:397px;
+margin:10px 0px 10px 72px;
+padding:0px;
+}
+
+.version2-2:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.version2-2 {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .version2-2 {height: 1%;}
+.version2-2 {display: block;}
+/* End hide from IE-mac */
+
+.version2-2 div.left{
+float:left;
+width:175px;
+}
+
+.version2-2 img.yajirushi{
+float:left;
+}
+
+#main-contents div.version2-2 div p.name{
+	font-size:13px;
+	font-weight:bold;
+	margin:5px 3px 5px 3px;
+	padding:5px;
+	text-align:center;
+	background-color:#e7fdeb;
+	width:159px;
+	color:#666666;
+	line-height:1.2;
+	vertical-align:middle;
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja"><!-- InstanceBegin template="/Templates/lebel2.dwt" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="ROBOTS" content="INDEX">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<!-- InstanceBeginEditable name="keyword" -->
+<meta name="keywords" content="歯,白,痛,期間,西新宿,新宿区,東京,歯科医,歯医者,歯">
+<meta name="description" content="新宿区西新宿の歯医者、西新宿歯科TOYOクリニックです（新宿駅近く）。インプラント、審美歯科、歯周病治療、歯を白くするホワイトニングまで">
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>診療時間、アクセス方法 －西新宿歯科TOYOクリニック（新宿,西新宿）</title>
+<!-- InstanceEndEditable -->
+<link href="./css/screen.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="plus_css" -->
+
+<!-- InstanceEndEditable -->
+<!--[if IE 6 ]><link rel="stylesheet" type="text/css" media="all" href="../css/for-ie.css" /><![endif]-->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script>
+//Load livereload.js for development.
+var pattern = /^(192\.168\.|127\.0\.0\.1|localhost)/i
+if (pattern.test(location.host) === true) {
+  document.write('<script src="http://'
+      + location.host.split(':')[0]
+      + ':35729/livereload.js"></'
+      + 'script>');
+}
+</script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-238463-30', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<div id="pr">
+<p><a name="top">新宿区西新宿の歯科（歯医者）です。新宿駅近く。各種保険対応。インプラント、審美（ホワイトニング）。</a></p>
+</div>
+<!-- /pr -->
+<!-- ■■PRテキスト■■-->
+<div id="allwrap">
+<!-- ■■ヘッダー■■ -->
+<div id="hedder" class="clear-fix">
+<div id="logo">
+<h2><a href="./index.html"><img src="./images/logo_toyo.gif" alt="西新宿歯科TOYOクリニック"></a></h2>
+</div>
+<!-- / logo -->
+<div id="addless">
+<p class="rmv">東京都新宿区西新宿1-19-7岡崎ビル3Ｆ</p>
+<p class="rmv">電話番号：03-5324-6789</p>
+</div>
+<!-- / addless -->
+</div>
+<!-- / hedder -->
+<link href="./css/access.css" rel="stylesheet" type="text/css" media="all">
+<link type="text/css" rel="stylesheet" href="./css/access_map.css">
+<script type="text/javascript" src="./js/access_map.js"></script>
+<script type="text/javascript">
+        /* 地図の初期化 */
+        function initialize() {
+            /* ★緯度・経度：日本 */
+            // var latlng=new google.maps.LatLng(35.624041,139.721417);
+            var latlng=new google.maps.LatLng(35.688106,139.696902);
+
+            /* ★★地図のオプション設定 */
+            var myOptions={
+                /*初期のズーム レベル */
+                zoom: 16,
+                /* 地図の中心点 */
+                center: latlng,
+                /* 地図タイプ */
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            /* ★★★地図オブジェクト */
+            var map=new google.maps.Map(document.getElementById("map"), myOptions);
+            /* マーカーの位置 */
+            var setposition=new google.maps.LatLng(35.688106,139.696902);
+            /* アイコン */
+            var image=new google.maps.MarkerImage(
+                'http://www.mvpro.jp/dental/tooth1.png',
+                new google.maps.Size(42,35),
+                new google.maps.Point(0,0),
+                new google.maps.Point(1,23)
+            );
+            /* アイコンの影 */
+            var shadow=new google.maps.MarkerImage(
+                'http://www.mvpro.jp/dental/tooth2.png',
+                new google.maps.Size(42,35),
+                new google.maps.Point(0,0),
+                new google.maps.Point(1,23)
+            );
+            /* マーカーオブジェクト */
+            var marker=new google.maps.Marker({
+                position: setposition,
+                map: map,
+                icon: image,
+                shadow: shadow
+            });
+
+               //★★★★吹き出しを作成します
+                var contentString = '<div style="width: 230px; padding-right: 10px">西新宿歯科TOYOクリニック<br>東京都新宿区西新宿1-19-7岡崎ビル3Ｆ<br><br>03-5324-6789<\/div>';
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString  //吹き出し内コメント
+                });
+
+
+
+                //クリックしたときに吹き出しがオープンするイベントを定義します
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open(map,marker);
+                });
+        }
+
+        /* ロード時に初期化 */
+        google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- ●●メインメニュー●● -->
+<!-- InstanceBeginEditable name="menu" -->
+<div id="menu">
+  <h2 class="rmv">西新宿歯科TOYOクリニック　ホームページ　メインメニュー</h2>
+  <ul>
+    <li id="menu-home"><a href="./index.html">トップページ</a></li>
+    <li id="menu-1"><a href="./dental_service.html">診療内容</a></li>
+    <li id="menu-2"><a href="./info.html">医院紹介</a></li>
+    <li id="menu-3"><a href="./price_list.html">治療費</a></li>
+    <li id="menu-4"><span><a href="./access.html">アクセス</a></span></li>
+  </ul>
+</div>
+<!-- InstanceEndEditable -->
+<!-- / menu -->
+<!-- ■■□□□パン屑リスト□□□■■ -->
+<div id="pan">
+<!-- InstanceBeginEditable name="pankuzu" -->アクセス<!-- InstanceEndEditable -->
+</div>
+<!-- / pan -->
+<!-- ■■□□□メインコンテンツここから□□□■■ -->
+<div id="mainwrap" class="clear-fix">
+<!-- ●●メインコンテンツ（左カラム）●● -->
+<div id="main-contents"><!-- InstanceBeginEditable name="mein" -->
+<h1><span class="rmv">交通・アクセス【西新宿歯科TOYOクリニック】</span></h1>
+<p class="under_h1">各線新宿駅　徒歩5分<br>
+<div id="map" class="clear-fix"></div>
+
+<h2 class="h2-3"><span class="rmv">道順</span></h2>
+<div id="access_flow">
+<div class="flow_img">
+<div class="img_left">
+  <img src="./images/flow_1.jpg">
+  <p>五反田駅の西口を進んでください。</p>
+</div>
+<div class="img_right"><img src="./images/flow_2.jpg">
+<p>西口にはこんなお店が。</p>
+</div>
+</div>
+<div class="clear"></div>
+<div class="arrow"></div>
+
+<div class="flow_img">
+<div class="img_left"><img src="./images/flow_3.jpg">
+<p>右手に曲がると成城石井が。</p>
+</div>
+<div class="img_right"><img src="./images/flow_4.jpg">
+<p>成城石井の前の横断歩道を左手に渡ります。</p>
+</div>
+</div>
+<div class="clear"></div>
+<div class="arrow"></div>
+
+<div class="flow_img">
+<div class="img_left"><img src="./images/flow_5.jpg">
+<p>渡りきると大和証券があります。<br>
+大和証券の右手を前方に進みます。</p>
+</div>
+<div class="img_right"><img src="./images/flow_6.jpg">
+<p>大きな道沿いに進んでいきます。<br>
+途中、川を渡ります。</p>
+</div>
+</div>
+<div class="clear"></div>
+<div class="arrow"></div>
+
+<div class="flow_img">
+<div class="img_left"><img src="./images/flow_7.jpg">
+<p>通り沿いに吉野家が見えたら･･･！</p>
+</div>
+<div class="img_right"><img src="./images/flow_8.jpg">
+<p>その隣のビッグヴィジョンが入っているビルの３F です！</p>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+
+<h2 class="h2-1"><span class="rmv">診療一覧</span></h2>
+<ul class="dental-item">
+<li>一般歯科</li>
+<li class="margin">小児歯科</li>
+<li class="margin"><a href="./implant.html#perio"><span class="more">歯周病治療</span></a></li>
+<li class="margin">予防歯科</li>
+<li class="margin"><a href="./implant.html"><span class="more">インプラント</span></a></li>
+</ul>
+<ul class="dental-item">
+<li>矯正歯科</li>
+<li class="margin"><a href="./implant.html#beauty"><span class="more">審美歯科</span></a></li>
+<li class="margin">口臭治療</li>
+<li class="margin">口腔外科</li>
+</ul>
+<h2 class="h2-2"><span class="rmv">診療時間</span></h2>
+<div id="service-time" class="clear-fix">
+<div id="time-table">
+<table cellspacing="1" cellpadding="0" summary="診療時間">
+<tbody><tr>
+<th class="col" scope="col"><span class="rmv">診療時間：午前、午後</span></th>
+<th class="col" scope="col">月</th>
+<th class="col" scope="col">火</th>
+<th class="col" scope="col">水</th>
+<th class="col" scope="col">木</th>
+<th class="col" scope="col">金</th>
+<th class="col" scope="col">土</th>
+<th class="col" scope="col">日</th>
+</tr>
+<tr>
+<th class="row">【AM】10:00～14:00</th>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<th class="row">【PM】15:30～19:30</th>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+</tr>
+</tbody></table>
+</div>
+<!-- / time- table -->
+<p>※休診日：土・日・祝祭日</p>
+</div>
+<!-- service-time -->
+<p class="ptop"><a href="./access.html#top">ページトップ</a></p>
+
+<!-- InstanceEndEditable --></div>
+<!-- / main-contents -->
+<!-- ●●サブコンテンツ（右カラム）●● -->
+<div id="sub-contents">
+<h2 class="sub-yoyaku"><span class="rmv">西新宿歯科TOYOクリニック 簡単予約はこちら</span></h2>
+<div id="yoyaku">
+<ul><li id="pc"><a href="http://www.secure-site.in/ASP/dent/na-dental-clinic/pc/">オンライン予約</a></li><li id="tel"><span>電話予約は：03-5324-6789まで</span></li></ul>
+</div>
+<!-- / yoyaku -->
+
+<h2 class="sub4"><span class="rmv"><img src="./images/info_title.gif" alt="ケータイ版ホームページ"></span></h2>
+<div id="mobile">
+<p>バーコードを読み込むとケータイ版ホームページにアクセスできます。ケータイから診療予約も行えます。</p>
+<img src="./images/na_qr.jpg" alt="西新宿歯科TOYOクリニック　携帯版ホームページ　QRコード">
+</div>
+<!-- / mobile -->
+<h2 class="sub1"><span class="rmv">診療時間</span></h2>
+<div id="time">
+<p>【AM】10：00～14：00<br>
+【PM】15：30～19：30</p>
+<p>休診日：土・日、祝祭日</p>
+</div>
+<!-- / time -->
+<h2 class="sub2"><span class="rmv">診療一覧</span></h2>
+<div id="service-list">
+<ul>
+<li>一般歯科</li>
+<li>小児歯科</li>
+<li><a href="./implant.html#perio"><span class="more">歯周病治療</span></a></li>
+<li>予防歯科</li>
+<li><a href="./implant.html"><span class="more">インプラント</span></a></li>
+<li>矯正歯科</li>
+<li><a href="./implant.html#beauty"><span class="more">審美歯科</span></a></li>
+<li>口臭治療</li>
+<li>口腔外科</li>
+</ul>
+</div>
+<!-- / service-list -->
+<h2 class="sub3"><span class="rmv"><img src="./images/info_title.gif" alt="お知らせ"></span></h2>
+<div id="info">
+<p class="info-date"><strong>2016.05.25</strong></p>
+<ul>
+<li>6/13（月）は、機械メンテナンス及び院内清掃のため、休診させていただきます。</li>
+</ul>
+<p class="info-date"><strong>2016.04.12</strong></p>
+<ul>
+<li>2016/8/12（金）、8/15（月）は、夏季休業とさせていただきます。</li>
+<li>年末年始は、2016/12/28（水）～2017/1/3（水）の間休診させていただきます。</li>
+</ul>
+
+
+</div>
+<!-- / info -->
+
+</div>
+<!-- / sub-contents -->
+</div>
+<!-- / mainwrap -->
+
+<!-- ■■□□□フッターここから□□□■■ -->
+<div id="futter">
+<ul><li class="t_left"><a href="./index.html">HOME</a></li>
+<li class="t_middle"><a href="./dental_service.html">診療内容</a></li>
+<li class="t_middle"><a href="./info.html">医院紹介</a></li>
+<li class="t_middle"><a href="./price_list.html">治療費</a></li>
+<li class="t_right"><a href="./access.html">アクセス</a></li>
+</ul>
+<p class="copyright">Copyright(c) Nishishinjyuku Dental TOYO Clinic. All rights Reserved.</p>
+</div>
+<!-- / futter -->
+</div>
+<!-- / allwrap -->
+
+<!-- InstanceEnd -->
+</body>
+</html>

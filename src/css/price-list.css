@@ -1,0 +1,80 @@
+/* アクセス
+----------------------------------------------------
+
+	1.	見出しクラスわけ
+
+
+
+----------------------------------------------------
+*/
+
+
+
+/*	1. 見出しクラスわけ
+-----------------------------------------------	*/
+#main-contents h1{
+	background-image:url(../images/price_list/h1.gif);
+	}
+
+#main-contents h2.h2-1{
+	background-image:url(../images/price_list/h2_1.gif);
+	}
+
+#main-contents h2.h2-2{
+	background-image:url(../images/price_list/h2_2.gif);
+	}
+
+
+/*	2. テーブル
+-----------------------------------------------	*/
+
+#cost-table{
+	width:535px;
+	border-top-color:#00aa1e;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#00aa1e;
+	border-left-style:solid;
+	border-left-width:1px;
+	margin-top:20px;
+}
+
+#cost-table th{
+	text-align:left;
+	vertical-align:middle;
+	color:#333333;
+	font-weight:bold;
+	padding:5px;
+	border-bottom-color:#00aa1e;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-right-color:#00aa1e;
+	border-right-style:solid;
+	border-right-width:1px;
+	width:200px;
+	background-color:#f4fff6;
+}
+
+#cost-table th span{
+font-weight:normal;
+color:#000000;
+}
+
+
+#cost-table td{
+	background-color:#FFFFFF;
+	padding:5px;
+	font-size:12px;
+	text-align:left;
+	border-bottom-color:#00aa1e;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-right-color:#00aa1e;
+	border-right-style:solid;
+	border-right-width:1px;
+}
+
+#cost-table td.row{
+text-align:right;
+width:100px;
+}

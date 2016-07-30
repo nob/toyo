@@ -1,0 +1,139 @@
+/*----------------------------------
+   サブコンテンツ
+----------------------------------*/
+
+
+
+/*	予約エリア
+----------------------------------*/
+
+#yoyaku{
+	width:183px;
+	height:116px;
+	margin-left:5px;
+	padding-bottom:10px;
+	background:url(../images/yoyaku_bg.gif);
+	background-repeat:no-repeat;
+	}
+
+div#yoyaku ul{
+	list-style-type:none;
+	height:116px;
+	margin:0px;
+	padding:0px;
+	}
+
+div#yoyaku ul li{
+	margin:0px;
+	padding:0px;
+	}
+
+div#yoyaku ul li a,div#yoyaku ul li span{
+	display:block;
+	height:116px;
+	background:url(../images/yoyaku_bg.gif) no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	}
+
+/*--- メニュー部通常時 ---*/
+div#yoyaku ul li#pc a{height:57px;}
+div#yoyaku ul li#tel span{height:59px;background-position:0px -57px;}
+
+/*--- メニュー部オーバー ---*/
+div#yoyaku ul li#pc a:hover{background-position:-183px -0px;}
+div#yoyaku ul li#tel a:hover{background-position:-183px -57px;}
+
+/*	タイトル
+----------------------------------*/
+
+h2.sub-yoyaku{
+	width:188px;
+	height:30px;
+	background-image:url(../images/h2_yoyaku.jpg);
+	background-repeat:no-repeat;
+	}
+
+h2.sub1,h2.sub2,h2.sub3,h2.sub4{
+	width:183px;
+	height:31px;
+	margin:10px 0px 0px 5px;
+	padding:0px;
+	background-repeat:no-repeat;
+	}
+
+h2.sub1{
+	background-image:url(../images/time_title.gif);
+	}
+
+h2.sub2{
+	background-image:url(../images/service_title.gif);
+	}
+h2.sub3{
+	background-image:url(../images/info_title.gif);
+	}
+h2.sub4{
+	background-image:url(../images/mb_title.gif);
+	margin-top:20px;
+	}
+
+
+#time,#service-list,#info,#mobile {
+	width:183px;
+	background-image:url(../images/subcon_bg.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-left:5px;
+	padding:8px 0px 10px;
+	}
+
+#time p,#info p,#mobile p,#info p{
+	margin:0px 8px 8px;
+	padding:0px;
+	}
+
+#info p{
+	margin:0px 8px 3px;
+	padding:0px;
+	}
+
+#service-list ul,#info ul{
+	padding:0px;
+	list-style:none;
+	}
+
+#service-list ul{
+	margin:0px 8px;
+	}
+
+#info ul{
+	margin:0px 8px 8px;
+	}
+
+
+#service-list ul li,#info ul li{
+	background-image:url(../images/service_mark.gif);
+	background-repeat:no-repeat;
+	padding:0px 0px 3px 10px;
+	margin:0px;
+	}
+
+#service-list ul li a{
+	color:#000000;
+}
+
+#service-list ul li a:hover{
+	text-decoration:none;
+	color:#4ca35c;
+}
+
+#mobile img {
+	margin-left: 18px;
+}
+
+.more{
+	background-image:url(../images/btn_more.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	padding-right:71px;
+}

@@ -1,0 +1,48 @@
+/*----------------------------------
+   メインメニュー
+----------------------------------*/
+
+div#menu{
+	clear:both;
+	width:740px;
+	height:48px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/homemenu_bg.gif);
+	}
+
+div#menu ul{
+	clear:both;
+	list-style-type:none;
+	height:48px;
+	margin:0px;
+	padding:0px;
+	}
+
+div#menu li{
+	margin:0;
+	float:left;}
+
+div#menu li a{
+	display:block;
+	float:left;
+	height:48px;
+	background:url(../images/homemenu_bg.gif);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	}
+
+/*メニュー部通常時*/
+div#menu li#menu-home a{width:133px;}
+div#menu li#menu-1 a{width:152px;background-position:-133px 0;}
+div#menu li#menu-2 a{width:152px;background-position:-285px 0;}
+div#menu li#menu-3 a{width:152px;background-position:-437px 0px;}
+div#menu li#menu-4 a{width:151px;background-position:-589px 0px;}
+
+/*メニュー部オーバー*/
+div#menu li#menu-home a:hover,div#menu li#menu-home span a{background-position:0px -48px;}
+div#menu li#menu-1 a:hover,div#menu li#menu-1 span a{background-position:-133px -48px;}
+div#menu li#menu-2 a:hover,div#menu li#menu-2 span a{background-position:-285px -48px;}
+div#menu li#menu-3 a:hover,div#menu li#menu-3 span a{background-position:-437px -48px;}
+div#menu li#menu-4 a:hover,div#menu li#menu-4 span a{background-position:-589px -48px;}

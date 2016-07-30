@@ -1,0 +1,780 @@
+/*----------------------------------
+  トップページ用CSS
+
+	1.	共通部分
+	2.	PR部分
+	3.	ヘッダー
+	4.	メインメニュー
+	5.	キービジュアル
+	6.	ピックアップコンテンツ
+	7.	ご挨拶・活動方針
+	8.	医院紹介
+	9.　フッター
+	10.　キービジュアル下のお知らせ
+
+----------------------------------*/
+
+
+
+
+/*	1. 共通部分
+-----------------------------------------------	*/
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	text-align:center;
+	background:url(../images/body_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:center;
+	background-color:#f7f6c7;
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	line-height: 1.5;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color:#333333;
+	}
+
+/*-------ページ大枠-------*/
+div#allwrap{
+	width:740px;
+	margin:0px auto;
+	text-align:left;
+	}
+
+
+body > div#allwrap{
+	width:740px;
+	margin:0px auto;
+	text-align:left;
+	}
+
+
+/*-------リンクテキスト-------*/
+
+a:link{color:#035ADE;text-decoration:none;}
+a:visited{color:#035ADE;text-decoration:none;}
+a:hover{color:#035ADE;text-decoration:underline;}
+
+
+/*-----隠しテキスト-----*/
+.rmv
+	{
+	display:block;
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	width:0px;
+	height:0px;
+	margin:0px;
+	padding:0px;
+	}
+
+/*-----IMG要素 -----*/
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 0;
+}
+
+/*-----回り込み解除-----*/
+.clear{
+	clear:both;
+}
+
+.clear-fix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clear-fix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clear-fix {height: 1%;}
+.clear-fix {display: block;}
+/* End hide from IE-mac */
+
+
+/*-----見出し,段落要素 -----*/
+
+h1,h2,h3,h4,p,div{
+	margin:0px;
+	padding:0px;
+	}
+h1,h2,h3,h4{
+	clear:both;
+	}
+p{
+	margin-bottom:10px;
+	}
+
+/*---右寄せ指定 ---*/
+
+.align-right{
+	text-align:right;
+	clear:both;
+	}
+
+
+
+
+/*	2. PRエリア
+-----------------------------------------------	*/
+div#pr{
+	background-image:url(../images/pr_bg.gif);
+	background-repeat:no-repeat;
+	width:760px;
+	height:23px;
+	margin:0px auto;
+	text-align:left;
+	}
+
+body > div#pr{
+	width:760px;
+	margin:0px auto;
+	text-align:left;
+	}
+
+#pr p{
+	text-align:center;
+	font-size:12px;
+	line-height:175%;
+	margin:0px;
+	}
+
+
+
+/*	3. ヘッダー
+-----------------------------------------------	*/
+#hedder{
+	clear:both;
+	width:740px;
+	height:64px;
+	margin:0px;
+	padding:0px;
+	}
+
+#logo{
+	width:240px;
+	height:64px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	}
+
+#logo h1{
+	margin:0px;
+	padding:0px;
+	}
+#logo h1 img{
+	margin:0px;
+	vertical-align:bottom;
+	}
+
+
+#addless{
+	width:270px;
+	height:64px;
+	float:right;
+	background-image:url(../images/address_bg.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+	margin:0px;
+	padding:0px;
+	}
+
+#intro{
+	margin:0px 270px 0px 240px;
+	padding:0px;
+	height:64px;
+	}
+
+#intro p{
+	padding:15px 0px 18px;
+	font-weight:bold;
+	color:#84B58E;
+	}
+
+
+/*	4. メインメニュー
+-----------------------------------------------	*/
+
+div#menu{
+	clear:both;
+	width:740px;
+	height:48px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/homemenu_bg.gif);
+	}
+
+div#menu ul{
+	clear:both;
+	list-style-type:none;
+	height:48px;
+	margin:0px;
+	padding:0px;
+	}
+
+div#menu li{
+	margin:0;
+	float:left;}
+
+div#menu li a{
+	display:block;
+	float:left;
+	height:48px;
+	background:url(../images/homemenu_bg.gif);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	}
+
+/*--- メニュー部通常時 ---*/
+div#menu #menu-home a{width:133px;}
+div#menu #menu-1 a{width:152px;background-position:-133px 0;}
+div#menu #menu-2 a{width:152px;background-position:-285px 0;}
+div#menu #menu-3 a{width:152px;background-position:-437px 0px;}
+div#menu #menu-4 a{width:151px;background-position:-589px 0px;}
+
+/*--- メニュー部オーバー ---*/
+div#menu #menu-home a:hover,#menu-home a.on{background-position:0px -48px;}
+div#menu #menu-1 a:hover,#menu-1 a.on{background-position:-133px -48px;}
+div#menu #menu-2 a:hover,#menu-2 a.on{background-position:-285px -48px;}
+div#menu #menu-3 a:hover,#menu-3 a.on{background-position:-437px -48px;}
+div#menu #menu-4 a:hover,#menu-4 a.on{background-position:-589px -48px;}
+
+
+
+/*	5. キービジュアル
+-----------------------------------------------	*/
+
+
+
+#keyvisual{
+	clear:both;
+	width:740px;
+	height:270px;
+	margin:0px;
+	padding:0px;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	}
+
+#keyphoto{
+	width:490px;
+	height:270px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+
+#keyphoto img{
+	margin:0px;
+	padding:0px;
+	vertical-align:bottom;
+	}
+#keymenu{
+	width:250px;
+	height:270px;
+	padding:0px;
+	float:right;
+	}
+#keymenu h2{
+	height:28px;
+	margin:0px;
+	}
+
+#keymenu ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	}
+
+#keymenu ul li{
+	margin:0px;
+	height:135px;
+	}
+
+#keymenu li.menu1 a{
+	display:block;
+	background:url(../images/key_visual_btn_yoyaku.jpg);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	}
+#keymenu li.menu2 a{
+	display:block;
+	background:url(../images/key_visual_btn_scope.jpg);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	text-decoration:none;
+	}
+
+
+#keymenu li.menu1 a{height:135px;}
+#keymenu li.menu2 a{height:135px;}
+
+/*--- キービジュアルメニューオーバー ---*/
+
+#keymenu li.menu1 a:hover{background-position:-250px -0px;}
+#keymenu li.menu2 a:hover{background-position:-250px -0px;}
+
+
+/*	6. ピックアップコンテンツ
+-----------------------------------------------	*/
+
+#pickup-contents{
+	clear:both;
+	background-image:url(../images/pickup_bg2.gif);
+	background-position:bottom;
+	background-repeat:repeat;
+	padding:6px;
+	}
+
+#pickup-contents .p1{
+	width:239px;
+	float:left;
+	display:block;
+	}
+
+#pickup-contents .p2{
+	width:238px;
+	margin:0px 6px 0px 6px;
+	float:left;
+	}
+
+#pickup-contents .p1 p,#pickup-contents .p2 p{
+	margin:0px 7px;
+	}
+
+#pickup-contents .p1 img,#pickup-contents .p2 img{
+	border:1px solid #ffffff;
+	height:80px;
+	}
+
+#pickup-contents .p1 a:hover img,#pickup-contents .p2 a:hover img{
+	border:1px solid #688E6D;
+	}
+
+/*--　診療一覧　--*/
+
+.subject{
+	text-align:right;
+	clear:both;
+	margin:10px 0px;
+	background-image:url(../images/subject_bg.gif);
+	background-position: right center;
+	background-repeat:no-repeat;/*
+	padding-left:20px;*/
+	}
+
+
+/*	7. ご挨拶・活動方針
+-----------------------------------------------	*/
+
+#policy{
+	clear:both;
+	margin:20px 0px;
+	}
+
+#policy h2{
+	margin-bottom:20px;
+	background-image: url(../images/policy_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 15px;
+	}
+
+.doctor_img{
+	float:left;
+	margin:0px 15px 0px 0px;
+	padding:0px;
+	}
+
+
+#doctorphoto {
+	width:169px;
+	float:left;
+}
+
+.greeting {
+	float:right;
+	width:720px;
+	color:#003333;
+	padding-left: 10px;
+	background-image: url(../images/policy_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.greeting p img {
+	margin-bottom: 10px;
+}
+
+.col-left {
+	float: left;
+	width: 330px;
+	padding-right: 20px;
+	border-right: 1px solid #c9d2ca;
+	margin-bottom: 10px;
+}
+
+.col-right {
+	float: right;
+	width: 340px;
+}
+
+
+.col-left img,.col-right img {
+	display: block;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.line-top {
+	background-image: url(../images/policy_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+/*	8. 医院紹介
+-----------------------------------------------	*/
+
+span.date {
+	color:#663333;
+	}
+
+
+/*-----段組 -----*/
+
+#clinic-wrap{
+	clear:both;
+	margin-bottom:25px;
+}
+
+#clinic-r{
+	width:445px;
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+
+#clinic-l{
+	width:280px;
+	float:left;
+	margin:0px 15px 30px 0px;
+	padding:0px;
+}
+
+#clinic-wrap ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+
+}
+
+#clinic-wrap ul {
+	margin-left: 8px;
+	margin-bottom: 8px;
+}
+
+#clinic-wrap ul li {
+	background-image: url(../images/list_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	padding-left: 10px;
+	margin-bottom: 3px;
+}
+
+#clinic-wrap p.info-date {
+	margin-bottom: 3px;
+}
+
+
+
+/*----- 採用情報 -----*/
+
+#recruit {
+	margin-bottom: 20px;
+	width: 740px;
+	clear: both;
+	background-image: url(../images/policy_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 15px;
+	_padding-bottom: 7px;
+}
+
+
+#recruit h3{
+	background-color:#e1f0e3;
+	padding:4px 8px;
+	font-weight:bold;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#recruit img {
+	float: left;
+	margin-right: 15px;
+}
+#recruit #recruit-text {
+	float: left;
+	width: 490px;
+}
+
+
+#contact-number{
+	font-size:17px;
+	background-image: url(../images/tel_mark.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 22px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	}
+
+/*-----左カラム -----*/
+
+#clinic-info h3,#clinic-l h3,#clinic-r h3{
+	background-color:#F3F2ED;
+	padding:4px 8px;
+	font-weight:bold;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+#clinic-l p{
+	padding-left:8px;
+	}
+
+
+#time-table{
+	width:445px;
+	background-color:#00aa1e;
+	}
+#time-table table{
+	width:100%;
+	}
+#time-table th.row{
+	text-align:left;
+	background-color:#eff5f1;
+	padding:3px;
+	width: 140px;
+	}
+#time-table th.col{
+	text-align:center;
+	background-color:#ecffef;
+	font-weight:normal;
+	padding:3px;
+	}
+
+#time-table td{
+	background-color:#ffffff;
+	padding:3px;
+	font-size:16px;
+	text-align:center;
+	}
+
+#time-table td.orange{
+	background-color:#FCF1C0;
+	}
+
+/*-----医院紹介エリア-----*/
+
+#clinic-l h3.medi{
+	background-image:url(../images/medi_bg.gif);
+	padding:8px 8px 0px;
+	margin-top:15px;
+	margin-bottom:0px;
+	}
+
+#clinic-l #medicorp{
+	background-image:url(../images/medi_bg.gif);
+	margin:0px;
+	padding:8px;
+	background-color:#FF0000;
+	}
+
+
+#clinic-l #medicorp ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	}
+
+
+#clinic-l #medicorp ul li{
+	background:url(../images/list_bg.gif);
+	background-repeat:no-repeat;
+	padding:0px 0px 3px 10px;
+	margin:0px;
+		}
+
+#flyer {
+	background-image: url(../images/doctor_bg_green.gif);
+	width: 445px;
+	margin-top: 25px;
+}
+#flyer p {
+	padding: 10px 10px 7px;
+}
+#flyer img {
+	margin-right: 5px;
+	margin-left: 20px;
+}
+#banner {
+	width: 445px;
+	margin-top: 25px;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+.bannerimg {
+	margin-right: 20px;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+#banner ul {
+	margin-left: 40px;
+	margin-top: 5px;
+	list-style-type: none;
+}
+#banner li {
+	background-image: url(../images/list_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+}
+
+
+
+
+		/*
+#clinic-l #medicorp ul li.margin{
+	margin-left:10px;
+	}	*/
+
+/*-----地図エリア -----*/
+
+#clinic-r img{
+	margin-right:10px;
+	padding:0px;
+	float:left;
+	}
+
+.yoyaku{
+	margin-top:10px;
+	}
+
+
+.p{
+	font-weight:bold;
+	color:#485A40;
+	}
+
+/*	9. フッター
+-----------------------------------------------	*/
+
+#futter{
+	clear:both;
+	width:740px;
+	margin-top:20px;
+	background-image:url(../images/futter_bg.gif);
+	background-repeat:repeat-x;
+	height:59px;
+	}
+#futter ul{
+	float: left;
+	width:450px;
+	margin: 10px 0px 0px 5px;
+	list-style-type: none;
+	padding:0px;
+	}
+
+#futter ul li {
+	float: left;
+	margin:0px;
+}
+#futter ul li a{
+	color:#ccc;
+	}
+
+#futter ul li.t_left a{
+	padding-right: 10px;
+	border-right: 1px solid #CCC;
+}
+
+#futter ul li.t_middle a{
+	padding-right: 10px;
+	padding-left:10px;
+	border-right: 1px solid #CCC;
+	}
+
+#futter ul li.t_right a{
+	padding-left:10px;
+	}
+
+
+#futter ul li.t_left a:link,#futter ul li.t_left a:visited,	#futter ul li.t_middle a:link,#futter ul li.t_middle a:visited,	#futter ul li.t_right a:link,#futter ul li.t_right a:visited{
+	color:#666;
+	text-decoration:none;
+	}
+#futter ul li.t_left a:hover,#futter ul li.t_middle a:hover,#futter ul li.t_right a:hover{
+	color:#666;
+	text-decoration:underline;
+	}
+#futter p.copyright{
+	float: right;
+	margin: 10px 0px 0px;
+	text-align: right;
+	color: #666;
+	font-size:11px;
+	}
+
+/*	10. キービジュアル下のお知らせ
+-----------------------------------------------	*/
+
+#brush {
+	width:740px;
+	height:120px;
+	background:url(../images/top_msg.gif) no-repeat;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	text-indent:-2000px;
+}
+#brush h2 {
+	font-size: 18px;
+	color: #339933;
+	margin-bottom: 5px;
+}
+#brush p {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+
+/*etc*/
+.f-red{
+	color:#FF0000;
+}
+
+.f-size_16{
+	font-size:16px;
+}
+
+.f-blue{
+	color:#0973b3;
+}
